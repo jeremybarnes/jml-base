@@ -131,8 +131,6 @@ enum Update {
 
 DECLARE_ENUM_INFO(Update, 3);
 
-ENUM_INFO_NAMESPACE
-
 const Enum_Opt<Update>
 Enum_Info<Update>::OPT[3] = {
     { "normal",      NORMAL   },
@@ -140,8 +138,6 @@ Enum_Info<Update>::OPT[3] = {
     { "prob",        PROB     } };
 
 const char * Enum_Info<Update>::NAME = "Update";
-
-END_ENUM_INFO_NAMESPACE
 
 BOOST_AUTO_TEST_CASE( test1 )
 {

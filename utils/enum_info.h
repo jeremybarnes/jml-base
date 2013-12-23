@@ -23,7 +23,7 @@
 #ifndef __utils__enum_info_h__
 #define __utils__enum_info_h__
 
-#include "jml/boosting/config.h"
+//#include "jml/boosting/config.h"
 #include <string>
 #include <map>
 #include "jml/arch/atomic_init.h"

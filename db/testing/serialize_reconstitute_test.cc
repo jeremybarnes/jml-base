@@ -17,7 +17,6 @@
 #include <boost/bind.hpp>
 #include <sstream>
 #include <boost/multi_array.hpp>
-#include "jml/algebra/matrix_ops.h"
 #include "jml/stats/distribution.h"
 
 
@@ -103,6 +102,7 @@ BOOST_AUTO_TEST_CASE( test_char )
     test_serialize_reconstitute('a');
 }
 
+#if 0
 BOOST_AUTO_TEST_CASE( test_multi_array )
 {
     boost::multi_array<float, 2> A(boost::extents[3][3]);
@@ -112,6 +112,7 @@ BOOST_AUTO_TEST_CASE( test_multi_array )
 
     test_serialize_reconstitute(A);
 }
+#endif
 
 BOOST_AUTO_TEST_CASE( test_bool )
 {

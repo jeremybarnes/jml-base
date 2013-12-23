@@ -17,9 +17,6 @@
 #include <iostream>
 
 #include "jml/utils/worker_task.h"
-#include "jml/boosting/training_data.h"
-#include "jml/boosting/dense_features.h"
-#include "jml/boosting/feature_info.h"
 #include "jml/utils/smart_ptr_utils.h"
 #include "jml/utils/vector_utils.h"
 #include "jml/arch/timers.h"

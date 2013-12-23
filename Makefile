@@ -18,13 +18,13 @@ SRC 	:= .
 PWD     := $(shell pwd)
 TEST_TMP:= $(TESTS)
 
-JML_TOP := .
+JML_BASE_TOP := .
 JML_BUILD := ./jml-build
 INCLUDE := -I.
 
 export BUILD
 export BIN
-export JML_TOP
+export JML_BASE_TOP
 export JML_BUILD
 export TEST_TMP
 
@@ -35,4 +35,4 @@ include $(JML_BUILD)/rules.mk
 include $(JML_BUILD)/python.mk
 include $(JML_BUILD)/node.mk
 
-include $(JML_TOP)/jml.mk
+include $(JML_BASE_TOP)/jml-base.mk
