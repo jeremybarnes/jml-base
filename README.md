@@ -1,20 +1,20 @@
-Jeremy's Machine Learning Library
+Jeremy's Machine Learning Library (base part)
 
-This library contains two main parts:
-* A system layer that exposes much functionality that wasn't readily available at the time the
-  library was first built (1999) for things like multi threading, linear algebra, and much else.
-  Most of this functionality is now available in modern, maintained packages (like Boost) and
-  it is mostly of historical interest.
-* A Machine Learning library containing implementations of a significant number of machine
-  learning algorithms.  This code is quite old but extremely efficient and performant, and is
-  used at the core of several machine-learning startups.
+This library contains a system layer that exposes much functionality that
+wasn't readily available at the time the library was first built (1999) for
+things like multi threading, linear algebra, and much else.  Most of this
+functionality is now available in modern, maintained packages (like Boost)
+and is being gradually replaced by its more modern equivalents.
 
-Currently, many of the source files mention the Affero GPL version 3.  These references will
-eventually be changed; the library as a whole is made available under the Apache License,
-version 2 (the text of the library is below).
 
-Note that the library incorporates the Judy Arrays library from HP; that library is made
-available under the LGPL license by HP and is *not* covered by the Apache License.
+Currently, many of the source files mention the Affero GPL version 3.
+These references will eventually be changed; the library as a whole is made
+available under the Apache License, version 2 (the text of the library is
+below).
+
+Note that the library incorporates the Judy Arrays library from HP; that
+library is made available under the LGPL license by HP and is *not*
+covered by the Apache License.
 
 ---
 
