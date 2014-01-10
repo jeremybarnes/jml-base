@@ -14,9 +14,10 @@ LIBUTILS_SOURCES := \
 	json_parsing.cc \
 	rng.cc \
 	hash.cc \
-	abort.cc
+	abort.cc \
+	lz4_filters.cc
 
-LIBUTILS_LINK :=	ACE arch boost_iostreams lzma boost_thread cryptopp
+LIBUTILS_LINK :=	ACE arch boost_iostreams lzma lz4 boost_thread cryptopp
 
 $(eval $(call library,utils,$(LIBUTILS_SOURCES),$(LIBUTILS_LINK)))
 
